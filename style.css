@@ -1,0 +1,228 @@
+*{
+    padding: 0;
+
+    margin: 0;
+
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:#449c98;
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+    box-shadow: 0 4px 4px 4px lightslategray;
+
+  }
+  li {
+    float: left;
+font-weight: 900;
+    padding-left: 200px;
+  }
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  li a:hover {
+    background-color: #111;  
+border-radius: 10px;
+    text-decoration: double;}
+
+.hero{
+width: 100%;
+    height: 700px;
+    background-color: lightgray;
+box-shadow: 0 4px 4px 4px lightslategray;
+}
+.text {
+    position: absolute;
+    top: 300px; 
+    left: 400px;
+    transform: translate(50%,-50%);
+    text-transform: uppercase;
+    font-family: verdana;
+    font-size: 12em;
+    font-weight: 700;
+    color: #f5f5f5;
+    text-shadow: 1px 1px 1px #919191,
+        1px 2px 1px #919191,
+        1px 3px 1px #919191,
+        1px 4px 1px #919191,
+        1px 5px 1px #919191,
+        1px 6px 1px #919191,
+        1px 7px 1px #919191,
+        1px 8px 1px #919191,
+        1px 9px 1px #919191,
+        1px 10px 1px #919191,
+    1px 18px 6px rgba(16,16,16,0.4),
+    1px 22px 10px rgba(16,16,16,0.2),
+    1px 25px 35px rgba(16,16,16,0.2),
+    1px 30px 60px rgba(16,16,16,0.4);
+}
+.text1 {
+    position: absolute;
+
+    letter-spacing: 8px;
+    top: 455px; 
+    left: 340px;
+    transform: translate(50%,-50%);
+    text-transform: uppercase;
+    font-family: verdana;
+    font-size: 30px;
+    font-weight: 700;
+    color: #f5f5f5;
+    text-shadow: 1px 1px 1px #919191,
+        1px 2px 1px #919191,
+        1px 3px 1px #919191,
+        1px 4px 1px #919191,
+        1px 5px 1px #919191,
+        1px 6px 1px #919191,
+        1px 7px 1px #919191,
+        1px 8px 1px #919191,
+        1px 9px 1px #919191,
+        1px 10px 1px #919191,
+    1px 18px 6px rgba(16,16,16,0.4),
+    1px 22px 10px rgba(16,16,16,0.2),
+    1px 25px 35px rgba(16,16,16,0.2),
+    1px 30px 60px rgba(16,16,16,0.4);
+}
+.divs{
+height: 500px;
+margin-left: 400px;
+margin-right: 400px;
+box-shadow: 6px 4px 4px 4px lightslategray;
+border-radius: 10px;
+}
+.div1{
+width: 60%;
+height: 500px;
+float: left;
+border-radius: 20px;
+}
+.div2{border-radius: 20px;
+    background-color: #fef8df;
+    width: 39.9%;
+height: 500px;
+float: right;
+
+}
+
+.div3{
+    background-color: #e1f8dd;
+    width: 39.8%;
+    height: 500px;
+    float: left;
+    border-radius: 20px;
+    }
+    .div4{border-radius: 20px;
+        width: 60%;
+    height: 500px;
+    float: right;
+    }
+
+    
+button{
+    margin-left: 140px;
+margin-top: 200px;
+border-radius: 10px;
+box-shadow: 2px 3px 3px 3px lightgray;
+width: 150px;
+height: 40px;
+border: none;
+display: block;
+padding-top: 15px;
+font-weight: 500;
+font-size: 18px;
+color: white;
+background-color: #e0ffff;
+
+}
+
+.div2 a{
+text-decoration: none;
+display: block;
+width: 150px;
+height: 50px;
+color:black;
+}
+
+.div2 a:hover{
+color: blue;
+
+}
+
+.div3 a{
+    text-decoration: none;
+    display: block;
+    width: 150px;
+    height: 50px;
+    color:black;
+    }
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* this is the footer coding  */
+
+
+.footer{
+    background-color:#439c98;
+    height: 400px;
+    color:#eeeeee;
+    width: 100%;
+    
+    }
+    
+    .a, .d{
+    padding-top: 40px;
+    padding-left: 25px;
+    width: 22.6%;
+    float: left;
+    height: 300px;
+    overflow: hidden;
+    font-size: 15px;
+    color: lightblue;
+    }
+    .small{
+    width: 24%;
+    height: 10%;
+    font-family:Arial, Helvetica, sans-serif;
+    padding-top: 40px;
+    padding-left: 100px;
+    display: block;
+    float: right;
+    font-size: 10px;
+    }
+    .attribute{
+    text-decoration: overline ;
+    
+    
+    }
+    
+    
+
